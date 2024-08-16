@@ -1,0 +1,70 @@
+{
+    "Hotel": [{
+            "nombre": "HOTEL BURJ AL ARAB",
+            "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bellagio_Fountain.jpg",
+            "precio": 1000000,
+            "descripcion": "Situado en el Golfo Pérsico, a 17 Km. al sur de Dubái, es uno de los hoteles más lujosos del mundo y el único hotel de siete estrellas del planeta. También es el más alto y uno de los más caros del planeta."
+        },
+        {
+            "nombre": "FOUR SEASON HOTEL GEORGE V",
+            "imagen": "https://losviajesdedomi.com/wp-content/uploads/2021/07/burj_al_arab_in_dubai-2.jpg",
+            "precio": 700000,
+            "descripcion": "Ubicado en los Campos Elíseos en París, el Four Season Hotel George V es uno de los hoteles más lujosos del mundo. Se caracteriza por tener unas instalaciones siempre en perfecto orden con distintos salones donde se llevan a cabo diferentes eventos. Sus habitaciones no tienen nada que envidiar a las del Palacio de Versalles; tapices, muebles antiguos y mármol son componentes indispensables de este hotel."
+        },
+        {
+            "nombre": "GALLERY HOTEL ART",
+            "imagen": "https://losviajesdedomi.com/wp-content/uploads/2021/07/FOUR-SEASON-GEORGE-V-1.jpg",
+            "precio": 900000,
+            "descripcion": "Ubicado en las cercanías del Ponte Vecchio en Florencia, es sin duda uno de los hoteles más lujosos del mundo. "
+        },
+        {
+            "nombre": "HOTEL DE GLACE",
+            "imagen": "https://losviajesdedomi.com/wp-content/uploads/2021/07/GALLERY-HOTEL-ART-FLORENCIA-2-1.jpg",
+            "precio": 800000,
+            "descripcion": "Situado en Québec (Canadá), el Hotel fue construido en su totalidad en hielo y nieve. Tiene 3.000 metros cuadrados y se necesitaron 11 mil toneladas de nieve y 350 toneladas de hielo para su construcción."
+        },
+        {
+            "nombre": "PALMS CASINO RESORT",
+            "imagen": "https://losviajesdedomi.com/wp-content/uploads/2021/07/HOTEL-DE-GLACE-1.jpg",
+            "precio": 1500000,
+            "descripcion": "Es un lujoso complejo turístico localizado al oeste del Strip de Las Vegas."
+        },
+        {
+            "nombre": "MANDARIN ORIENTAL",
+            "imagen": "https://losviajesdedomi.com/wp-content/uploads/2021/07/Palm-Casino-Resort-Las-Vegas_portrait_w85-1.jpg",
+            "precio": 1000000,
+            "descripcion": "Este hotel, ubicado en el piso 35 del prestigioso Times Warner Center en el Columbus Centre de Nueva York (EEUU). Es uno de los hoteles más lujosos del mundo en el que se combina el lujo, servicio y rejuvenecimiento."
+        }
+    ],
+    "piscina": [{
+            "nombre": "Empresa de Construcción de Piscinas en Colombia",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJvWUhRo_SNE6wJVw_MaI-EbT07X78uPkyw&s",
+            "precio": 500000,
+            "descripcion": ""
+        },
+        {
+            "nombre": "Los sitios más baratos cerca de Bogotá ",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJicm_5ilMfoqCgkhQmfqhHHVEXQslL976_sURnz6gqIjUokvIFPI8lFn1hEmwczjgnE&usqp=CAU",
+            "precio": 400000,
+            "descripcion": ""
+        },
+        {
+            "nombre": "Centro Comercial Paseo Villa del Río",
+            "imagen": "https://files.alerta.rcnradio.com/alerta_bogota/public/styles/amp1200x675/public/2023-03/piscinas_en_centro_comercial_paseo_villa_de_rio.jpg?wjCWL2dBfKHFsNAUZUCnZvSBqOMBghHo&h=99a541cf&itok=xExj5fK4",
+            "precio": 700000,
+            "descripcion": ""
+        },
+        {
+            "nombre": "Piscinas con toboganes en Cundinamarca ",
+            "imagen": "https://files.alerta.rcnradio.com/alerta_bogota/public/styles/article_desktop/public/2024-01/piscinacontoboganes.jpg?uwNXV3KWm0oxtdCsPzu9NMks0Ljwc5zE&h=99a541cf&itok=6vNlb56O",
+            "precio": 300000,
+            "descripcion": ""
+        },
+        {
+            "nombre": "Piscinas Climatizadas",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1CTPJBLiyOPnq4CzwbOFDyZFHw1XmcZtXmw&s",
+            "precio": 500000,
+            "descripcion": ""
+        }
+    ]
+}
