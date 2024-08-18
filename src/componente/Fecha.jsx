@@ -1,43 +1,27 @@
-import React, { useState } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import es from "date-fns/locale/es";
-import { registerLocale } from "react-datepicker";
+import React, { useState } from 'react';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
-
-registerLocale("es", es);
-
-const Fecha = ({ nombre, texto, value, onChange }) => {
-  const [abrir, setAbrir] = useState(false);
-  const {Fecha, setFecha}=useState(texto)
-
-  const handleClick = () => {
-    setAbrir(!abrir);
-  };
+const Fecha = ({nombre}) => {
+  const [selectedDate, setSelectedDate] = useState(null);
 
   const handleChange = (date) => {
-    onChange(!date);
-    setFecha(!data ?' dateFormat':'dd/MM/yyyy')
-   
+    setSelectedDate(date);
   };
 
   return (
-    <div className='borde rounded-xl w-[150px] h-[50px]' onClick={handleClick}>
-      <div className='text-lg bord font-bold'>{nombre}</div>
+    <div className='hover:color rounded-full flex flex-col justify-center  w-[200px]'>
       <div>
-        {abrir && (
-          <DatePicker
-            selected={value}
-            onChange={handleChange}
-            inline
-            locale="es"
-            dateFormat="dd/MM/yyyy"
-            onClose={() => setAbrir(false)}
-            setFecha={Fecha}
-          />
-        )}
+      <h1>{nombre}</h1>
       </div>
-      <div className='text-gray-500'>{texto}</div>
+      <div>
+      <DatePicker placeholderText='Agregar fecha'
+        selected={selectedDate}
+        onChange={handleChange}
+        className='cursor-pointer hover:shadow-sm'
+      />
+      </div>
+      
     </div>
   );
 };

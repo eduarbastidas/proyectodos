@@ -1,7 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { getAuth, onAuthStateChanged, } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+
 
 
 
@@ -16,5 +17,17 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const { auth, } = getAuth(app);
-const db = getFirestore
+const db = getFirestore(app);
+const auth = getAuth(app);
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        // El usuario está autenticado
+        console.log("Usuario autenticado:", user);
+    } else {
+        // El usuario no está autenticado
+        console.log("Usuario no autenticado");
+    }
+});
+
+
+export { db, auth };

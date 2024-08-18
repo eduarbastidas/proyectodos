@@ -13,6 +13,8 @@ import Carrusel from './Carrusel';
 import aji from '../img/aji.png';
 import Card from '../componente/Card';
 import Login from '../componente/Login';
+import Destino from '../componente/Destino';
+import Persona from './Persona';
 
 
 
@@ -64,12 +66,12 @@ const Home = ({ }) => {
           </nav>
         </nav>
       </nav>
-      <div className=' border flex justify-center shadow-md items-center rounded-[100px] gap-5 w-[800px] h-[80px]'>
-        <Fecha className='borde' nombre={"Donde"} texto={"Explora destino"} />
+      <div className=' rounded-full border flex items-center justify-center w-[800px] h-[70px]'>
+        <Destino  className='borde cursor-pointer hover:shadow-md' nombre={"Donde"} texto={"Explora destino"} /> 
         <Fecha nombre={llegada} texto={"Agregar fecha "} />
         {showSalida && <Fecha nombre={"Salida"} texto={"Agregar fecha"} />}
-        <Fecha nombre={"Quien"} texto={"¿Cuanto?"} />
-        <div className='bg-red-500 flex items-center rounded-[20px] h-[47px] w-[50px]  '>
+        <Persona nombre={"Quien"} texto={"¿Cuanto?"} />
+        <div className='bg-red-500 flex items-center rounded-full h-[47px] w-[50px]  '>
           <IoSearch className='lupa  ' />
         </div>
       </div>
@@ -81,7 +83,7 @@ const Home = ({ }) => {
       <div className='flex '>
      <Card className='w-[100px] '/>
       </div>
-     
+   
 
 
       {abrirMenu && <Menu />}
